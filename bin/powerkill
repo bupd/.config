@@ -1,0 +1,12 @@
+#!/bin/sh
+
+tmux kill-server
+pkill brave
+pkill chrome
+pkill electron
+
+echo "Killed programs."
+
+sleep 2
+
+
