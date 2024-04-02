@@ -109,6 +109,7 @@ source /usr/share/nvm/init-nvm.sh
 # export PAGER="most"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+bindkey -s '^F' 'exec sessionizer^M'
 
 sound() {
   for s in $@; do
@@ -127,3 +128,5 @@ export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
+
+
